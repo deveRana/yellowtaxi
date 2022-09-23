@@ -1,0 +1,24 @@
+.mainContainer{
+    width: 100vw;
+    /* height: 100vh; */
+    background: #fdfdfc;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.leftSideContainer{
+    width: 49vw;
+    /* height: 100vh; */
+
+}
+
+.rightSideContainer{
+    width:50vw;
+    /* height: 110vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}

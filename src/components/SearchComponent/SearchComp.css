@@ -1,0 +1,187 @@
+.searchContainer {
+    width: 100%;
+    height: 44vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.originSearch {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.originSearch input {
+    width: 90%;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: #fdfdfc;
+    padding: 12px 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: var(--blue-color);
+    box-shadow: 5px 5px 7px var(--boxShadow--black-color-0-25),
+        inset 2px 2px 5px var(--boxShadow--black-color-0-25);
+        position: relative;
+
+}
+
+.originSearch input::placeholder {
+    color: #fdfdfc;
+}
+
+
+
+.originSearch svg{
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    font-size: 25px;
+}
+
+
+.showOriginSuggestion {
+    list-style: none;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.showOriginSuggestion li {
+    transition: 0.5s;
+    text-align: center;
+    background: #fdfdfc;
+    color: var(--blue-color);
+    font-size: 11px;
+    font-weight: 600;
+    margin: 4px 0;
+    border-radius: 10px;
+    padding: 4px 4px;
+    box-shadow: 1px 1px 2px var(--boxShadow--black-color-0-25),
+        inset 2px 2px 5px var(--boxShadow--black-color-0-25);
+    cursor: pointer;
+}
+
+.showOriginSuggestion li:hover {
+    color: #fdfdfc;
+    background: var(--blue-color);
+}
+
+
+.swapBtnDivandGetBtn {
+    width: 15%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.swapBtnDivandGetBtn button {
+    width: 100px;
+    outline: none;
+    border: none;
+    background: #242727;
+    color: #fdfdfc;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 5px 5px 7px var(--boxShadow--black-color-0-25),
+        inset 2px 2px 5px var(--boxShadow--black-color-0-25);
+    transition: 0.5s;
+}
+
+.swapBtnDivandGetBtn button:hover {
+    color: #242727;
+    background: #fdfdfc;
+}
+
+.swapBtnDivandGetBtn button:first-child {
+    color: #242727;
+    background: #fdfdfc;
+}
+
+
+.swapBtnDivandGetBtn button:first-child:hover {
+    background: #242727;
+    color: #fdfdfc;
+}
+
+
+.destiationSearch {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.destiationSearch input {
+    width: 90%;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background: #fdfdfc;
+    padding: 12px 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: var(--blue-color);
+    box-shadow: 5px 5px 7px var(--boxShadow--black-color-0-25),
+        inset 2px 2px 5px var(--boxShadow--black-color-0-25);
+}
+
+.destiationSearch input::placeholder {
+    color: var(--blue-color);
+}
+
+
+
+.destiationSearch svg{
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    font-size: 25px;
+}
+
+
+
+.showDestinationSuggestion {
+    list-style: none;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.showDestinationSuggestion li {
+    transition: 0.5s;
+    text-align: center;
+    color: #fdfdfc;
+    background: var(--blue-color);
+    font-size: 11px;
+    font-weight: 600;
+    margin: 4px 0;
+    border-radius: 10px;
+    padding: 4px 4px;
+    box-shadow: 1px 1px 2px var(--boxShadow--black-color-0-25),
+        inset 2px 2px 5px var(--boxShadow--black-color-0-25);
+    cursor: pointer;
+}
+
+.showDestinationSuggestion li:hover {
+    background: #fdfdfc;
+    color: var(--blue-color);
+
+}
+
